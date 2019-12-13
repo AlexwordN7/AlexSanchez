@@ -1,8 +1,17 @@
+import java.util.Scanner;
 
 public class Prueba {
+	public static int suma(int operador1, int operador2) {
+		int total =0;
+		total=operador1+operador2;
+		return total;
+	}
 
 	public static void main(String[] args) {
-		System.out.println("Hola");
+		Scanner ejercicio1 =new Scanner(System.in);
+		int numeros = 0;
+		suma(numeros, numeros);
+		
 	}
 
 }
